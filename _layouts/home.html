@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Personal Projects</h1>
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% for project in site.data.projects %}
+      <li>
+
+        <h2>
+          <a class="post-link" href="{{ project.url }}">{{ project.name | escape }}</a>
+        </h2>
+        <p>
+          {{ project.description }}
+        </p>
+        <span class="post-meta">{{ project.tags | array_to_sentence_string }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

@@ -1,0 +1,27 @@
+# Site settings
+title: Bethaknee is me 
+email: bsoule@beeminder.com
+description: >
+  Bethany is a Master of computer science by authority of Columbia University. She is passionate about autonomous locomotion, self quantification, fiber arts, mythologies, and of course codecodecode. She lives in the verdant Pacific Northwest.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bethaknee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: thatgirl 
+github_username:  bsoule 
+
+# Build settings
+markdown: kramdown
+theme: minima 
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

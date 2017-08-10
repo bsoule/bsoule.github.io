@@ -1,0 +1,25 @@
+- name: Beeminder
+  description: Goal setting, graphs, and bets.
+  url: https://www.beeminder.com
+  tags:
+    - Ruby
+    - Rails
+    - MongoDB
+- name: Expectorant
+  description: Flip biased coins for perfectly fair, in expectation, restaurant bill splitting.
+  url: http://bethaknee.com/projects/expectorant
+  tags:
+    - Android / Java
+- name: Expost
+  description: Render HTML from etherpads and use Etherpad instead of the WordPress editor.
+  url: http://github.com/bsoule/expost
+  tags:
+    - PHP
+    - jQuery
+- name: TagTime
+  description: Android app that tracks your time by random sampling.
+  url: http://bethaknee.com/projects/tagtime 
+  tags:
+    - Java
+    - Android
+    - SQLite
